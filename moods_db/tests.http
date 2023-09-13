@@ -1,0 +1,10 @@
+POST http://localhost:3000/entries HTTP/1.1
+content-type: application/json
+
+{
+    "date": "2023-02-01",
+    "overallMood": "4",
+    "emotions": "excited",
+    "journalEntry": "hello I had a good day"
+
+}
